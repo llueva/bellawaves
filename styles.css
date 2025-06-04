@@ -1,0 +1,113 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & Font */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container to center content */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* Hero (Header) Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.motto {
+  font-size: 1.25rem;
+  margin-top: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.pricing {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+/* Section Titles */
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Section Paragraphs */
+.section p {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Alternate Background for visual break */
+.alt-bg {
+  background-color: #f0faff;
+}
+
+/* Footer */
+.footer {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+  .motto {
+    font-size: 1rem;
+  }
+  .pricing {
+    font-size: 1.25rem;
+  }
+}
