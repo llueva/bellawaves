@@ -1,18 +1,18 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body & Font */
+
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #333;
   line-height: 1.6;
 }
 
-/* Container to center content */
+
 .container {
   width: 90%;
   max-width: 800px;
@@ -20,7 +20,7 @@ body {
   padding: 40px 0;
 }
 
-/* Hero (Header) Section */
+
 .hero {
   position: relative;
   text-align: center;
@@ -61,14 +61,14 @@ body {
   border-radius: 5px;
 }
 
-/* Section Titles */
+
 .section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Section Paragraphs */
+
 .section p {
   font-size: 1rem;
   text-align: center;
@@ -76,12 +76,12 @@ body {
   margin: 0 auto;
 }
 
-/* Alternate Background for visual break */
+
 .alt-bg {
   background-color: #f0faff;
 }
 
-/* Footer */
+
 .footer {
   background-color: #f4f4f4;
   padding: 20px 0;
@@ -99,7 +99,7 @@ body {
   text-decoration: underline;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 2.25rem;
@@ -111,3 +111,7 @@ body {
     font-size: 1.25rem;
   }
 }
+
+
+
+
