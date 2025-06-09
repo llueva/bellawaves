@@ -111,10 +111,22 @@ body {
     font-size: 1.25rem;
   }
 }
-/* WSI Credential QR Code */
+
 .credential-qr {
   max-width: 150px;
   height: auto;
   display: block;
   margin: 1rem auto;
+}
+
+
+.hero {
+  height: 400px;       
+  overflow: hidden;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  margin-top: -80px;   
 }
